@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="fatepi.posmobile.tictactoep2p.fragment.GamePlayFragment"
+    android:background="#ddd"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_weight=".33"
+            android:theme="@style/GameButton"
+            style="@style/actionButtonDefault"
+            android:onClick="clickBt1"/>
+
+        <Button
+            android:theme="@style/GameButton"
+            style="@style/actionButtonDefault"
+            android:id="@+id/bt2"
+            android:layout_weight=".33"/>
+
+        <Button
+            android:theme="@style/GameButton"
+            style="@style/actionButtonDefault"
+            android:id="@+id/bt3"
+            android:layout_weight=".33"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33"
+        android:orientation="horizontal">
+
+        <Button
+            android:theme="@style/GameButton"
+            style="@style/actionButtonDefault"
+            android:id="@+id/bt4"
+            android:layout_weight=".33"/>
+
+        <Button
+            android:theme="@style/GameButton"
+            style="@style/actionButtonDefault"
+            android:id="@+id/bt5"
+            android:layout_weight=".33"/>
+
+        <Button
+            android:theme="@style/GameButton"
+            style="@style/actionButtonDefault"
+            android:id="@+id/bt6"
+            android:layout_weight=".33"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight=".33"
+        android:orientation="horizontal">
+
+        <Button
+            android:theme="@style/GameButton"
+            style="@style/actionButtonDefault"
+            android:id="@+id/bt7"
+            android:layout_weight=".33"/>
+
+        <Button
+            android:theme="@style/GameButton"
+            style="@style/actionButtonDefault"
+            android:id="@+id/bt8"
+            android:layout_weight=".33"/>
+
+        <Button
+            android:theme="@style/GameButton"
+            style="@style/actionButtonDefault"
+            android:id="@+id/bt9"
+            android:layout_weight=".33"/>
+
+    </LinearLayout>
+</LinearLayout>
